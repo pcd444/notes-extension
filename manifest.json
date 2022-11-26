@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Note taker",
+    "version": "1.0",
+    "description": "Let you take notes while in the browser",
+    "background": {
+        "service_worker": "service-worker/background.js",
+        "type":"module"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Click to show an alert"
+      }
+}
