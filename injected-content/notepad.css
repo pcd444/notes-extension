@@ -21,6 +21,7 @@
     resize: none;
     background-color: white;
     justify-self: center;
+    color: black;
 }
 
 #notepad-extension-toolbar{
